@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\activity_calorie_calculator.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\activity_calorie_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\activity_recepie.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\activity_recepie.xml"
+    },
+    {
+        "merged": "com.rohitraut.thecompletemeal.app-mergeDebugResources-48:/layout/activity_splash_screen.xml",
+        "source": "com.rohitraut.thecompletemeal.app-main-51:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\activity_bmi.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\activity_bmi.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\recepie_layout.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\recepie_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\content_scrolling.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\content_scrolling.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\exercise_routine.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\exercise_routine.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\activity_scrolling.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\activity_scrolling.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\fragment_blank.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-mergeDebugResources-48:\\layout\\content_dashboard.xml",
+        "source": "C:\\Users\\devil\\.gradle\\wrapper\\daemon\\8.0\\com.rohitraut.thecompletemeal.app-main-51:\\layout\\content_dashboard.xml"
+    }
+]

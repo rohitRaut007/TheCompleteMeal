@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Dashboard">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="416dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:shadowColor="@color/black"
+            android:shadowRadius="20"
+            android:textStyle="bold"
+            android:text="Hey Gym Rat, \nWelcome to \nThe Complete Meal "
+            android:textColor="#76ADFF"
+            android:textSize="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="23dp"
+            android:text="Precision in Nutrition,\nPower in Fitness"
+            android:textColor="#ACC3FF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="490dp"
+            android:layout_height="510dp"
+            android:layout_marginEnd="4dp"
+            app:cardCornerRadius="80dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.987">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="338dp"
+                android:layout_height="90dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="70dp"
+                app:cardBackgroundColor="#7B82F6">
+
+                <TextView
+                    android:id="@+id/calorie_btn"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Calorie Calculator"
+                    android:shadowColor="#0337ED"
+                    android:shadowRadius="10"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="338dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_margin="290dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="50dp"
+                app:cardBackgroundColor="#7B82F6">
+
+                <TextView
+                    android:id="@+id/bmi_btn"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="BMI Calculator"
+                    android:shadowColor="#0337ED"
+                    android:shadowRadius="10"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/LottieDashboard"
+                android:layout_width="256dp"
+                android:layout_height="229dp"
+                android:layout_margin="290dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/gym_animation2"
+                android:layout_gravity="center_horizontal">
+
+
+            </com.airbnb.lottie.LottieAnimationView>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</FrameLayout>

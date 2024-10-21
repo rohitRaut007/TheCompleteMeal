@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard_Activity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="388dp"
+            android:layout_height="146dp"
+            android:layout_margin="10dp"
+            android:gravity="start"
+            android:padding="5dp"
+            android:shadowColor="@color/black"
+            android:shadowRadius="20"
+            android:text="Hey Gym Rat, \nWelcome to \nThe Complete Meal "
+            android:textColor="#76ADFF"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="354dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="Precision in Nutrition,\nPower in Fitness"
+            android:textColor="#ACC3FF"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.035"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="491dp"
+            android:layout_height="476dp"
+            android:layout_marginEnd="4dp"
+            app:cardBackgroundColor="#563D54C6"
+            app:cardCornerRadius="80dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="338dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="70dp"
+                android:shadowColor="#0337ED"
+                android:shadowRadius="10"
+                app:cardBackgroundColor="#7B82F6"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/calorie_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="Calorie Calculator"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="338dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_margin="290dp"
+                android:layout_marginTop="50dp"
+                android:shadowColor="#0337ED"
+                android:shadowRadius="10"
+                app:cardBackgroundColor="#7B82F6"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/bmi_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="BMI Calculator"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/LottieDashboard"
+                android:layout_width="256dp"
+                android:layout_height="229dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="290dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/gym_animation2">
+
+
+            </com.airbnb.lottie.LottieAnimationView>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</FrameLayout>
